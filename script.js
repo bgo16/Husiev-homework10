@@ -5,7 +5,7 @@ const createArr = (length) => {
   }
   console.log(userArr);
   console.log(
-    [...userArr].sort((a, b) => {
+    userArr.sort((a, b) => {
       return a - b;
     })
   );
